@@ -9,6 +9,7 @@ namespace millioner.VM
     {
         string questionString;
         int id;
+        public virtual ComplexityOfTheQuestion ComplexityOfTheQuestion { get; set; }
 
         public virtual IList<Answer> Answers { get; set; }
 

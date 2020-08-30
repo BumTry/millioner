@@ -13,6 +13,7 @@ namespace millioner
 
         public MillionerDBContext()
         {
+            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 

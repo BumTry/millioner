@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using millioner.Model;
 using millioner.VM;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ namespace millioner
         {
             optionsBuilder.UseSqlite("Filename=Millioner.db");
         }
-
+     
 
     }
 }

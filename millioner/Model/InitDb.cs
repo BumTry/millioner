@@ -13,8 +13,7 @@ namespace millioner.Model
         {
             
         }
-
-     
+    
 
      public  List<Question> InitQuestion()
         {
